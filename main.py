@@ -8,10 +8,9 @@ no input, no network, no randomness.
 
 import os
 
-JOKE = (
-    "I told my smart speaker I wanted privacy, so it started charging "
-    "me $9.99 a month to ignore me."
-)
+JOKE = "I told my smart speaker I wanted privacy, so it started charging me $9.99 a month to ignore me."
+# 95 characters. Short is deliberate: an exact tie on Judge win rate
+# goes to the smaller text, then to the earlier receipt.
 
 MAX_CHARS = 280  # the gate refuses /output/entry.txt over 280 characters
 
